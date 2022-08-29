@@ -9,6 +9,11 @@ install npm
 npm i
 ```
 
+install puppeteer
+```
+npm install puppeteer
+```
+
 ## Usage
 run npm app.js
 text file will be made and console will print appointment documentation finished
