@@ -5,9 +5,9 @@ A puppeteer bot which can scan for open appointments on the Oahu road test websi
 
 install npm
 
-***bash
+```
 npm i
-***
+```
 
 ## Usage
 run npm app.js
