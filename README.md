@@ -15,5 +15,6 @@ npm install puppeteer
 
 ## Usage
 1. Run npm app.js inside your IDE's terminal
-2. Text file "OpenAppointments" will be made, and console will print "Appointment Documentation Finished"
-3. Done!
+2. Text file "OpenAppointments" will be made
+3. Console will print "Appointment Documentation Finished"
+4. Done!
