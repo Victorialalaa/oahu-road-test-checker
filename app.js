@@ -67,22 +67,12 @@ async function getApps() {
     loc = await locth.evaluate(el => el.textContent);
     cleanloc = loc.replace(/\s+/g, " ").trim();
     schedule.push([date, cleanloc , openTime, openApps]);
-    writeFile("array.txt", date, cleanloc, openTime, openApps);
+    writeFile("OpenAppointments.txt", date, cleanloc, openTime, openApps);
   }
   screen+=1;
 }
-  //txtFile(schedule);
-  console.log("Data printed to 'array.txt' file" );
+  console.log("Appointment Documentation Finished!" );
   return page;
-}
-
-async function txtFile(Array) {
-  var fs = require('fs');
-
-  var file = fs.createWriteStream('array.txt');
-  file.on('error', function(err) {console.log('error')});
-  Array.forEach(function(v) { file.write(v.join(', ') + '\n'); });
-  file.end();
 }
 
 function writeFile(file, date, cleanloc, openTime, openApps) {
