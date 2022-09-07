@@ -1,5 +1,5 @@
 # Oahu Road Test Checker Script
-The Oahu Road Test Checker Script is a script written with Javascript and with Puppeteer's framework. This script will scan for open appointments on the [Oahu Road Test Website](https://www12.honolulu.gov/csdarts/frmAppInt.aspx), and return the location, date, time, and number of open appointments for every listed day appointments are available.
+The Oahu Road Test Checker Script is a script written with Javascript and with Puppeteer's framework. This script will scan for open appointments on the [Oahu Road Test Website](https://www12.honolulu.gov/csdarts/frmAppInt.aspx), and return the location, date, time, and the number of open appointments for every listed appointment day available.
 ## Installation
 
 Install npm
