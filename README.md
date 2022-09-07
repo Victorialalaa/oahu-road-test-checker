@@ -2,17 +2,18 @@
 The Oahu Road Test Checker Script is a script written with Javascript and with Puppeteer's framework. This script will scan for open appointments on the Oahu road test website (https://www12.honolulu.gov/csdarts/frmAppInt.aspx), and return the location, date, time, and number of open appointments for every listed day appointments are available.
 ## Installation
 
-install npm
+Install npm
 
 ```
 npm i
 ```
 
-install puppeteer
+Install puppeteer
 ```
 npm install puppeteer
 ```
 
 ## Usage
-run npm app.js
-text file will be made and console will print appointment documentation finished
+1. Run npm app.js inside your IDE's terminal
+2. Text file "OpenAppointments" will be made, and console will print "Appointment Documentation Finished"
+3. Done!
