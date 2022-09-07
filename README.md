@@ -5,9 +5,12 @@ The Oahu Road Test Checker Script is a script written with Javascript and with P
 1. Please make sure NodeJs is installed on your device
 
 2. Install puppeteer inside project
+
 ```
 npm install puppeteer
 ```
+
+3. Setup done!
 
 ## Usage
 1. Run npm app.js inside your IDE's terminal
